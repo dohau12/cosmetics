@@ -1,0 +1,85 @@
+@import "~bootstrap/scss/bootstrap";
+
+.categoryName {
+  margin-left: 30px;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  z-index: 1;
+  margin-top: 120px;
+}
+
+.hover-category {
+  display: none;
+  position: absolute;
+  background-color: #f0eeee;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  margin-top: 120px;
+
+  .item {
+    font-size: 17px;
+    margin: 0px 0px 10px;
+    border-bottom: 1px solid rgb(179, 174, 175);
+  }
+
+  .item:hover {
+    background-color: rgb(248, 230, 231);
+  }
+}
+
+.categoryName:hover .hover-category {
+  display: block;
+}
+
+.introduce-Name {
+  margin-left: 50px;
+  font-size: 18px;
+  margin-top: 120px;
+}
+
+.introduceName:hover {
+  background-color: rgb(250, 235, 237);
+}
+
+.introduceName {
+  margin-left: 70px;
+  border-radius: 6%;
+}
+
+.product-category {
+  display: flex;
+}
+
+.img-QR {
+  width: 50px;
+  height: 50px;
+}
+
+.introduce-QR {
+  margin-left: 70px;
+  border-radius: 6%;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+
+  .logo-link {
+    display: none;
+    position: absolute;
+    background-color: #f0eeee;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+
+    .img-QR {
+      width: 50px;
+      height: 50px;
+    }
+
+
+  }
+
+  .introduce-QR:hover .logo-link {
+    display: none;
+  }
+}

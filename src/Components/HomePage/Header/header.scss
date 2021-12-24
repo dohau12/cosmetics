@@ -1,0 +1,105 @@
+@import "~bootstrap/scss/bootstrap";
+.nav-header {
+    background: linear-gradient(
+    (rgb(231, 144, 173) 30%, rgb(243, 201, 112) 100%)
+  );
+  position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1111;
+}
+.Phone{
+  margin-left: 150px;
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+ 
+}
+.img {
+  margin-left: 70px;
+  display: inline-block;
+  font-size: 20px;
+  .custom-logo {
+      margin-top: -40px;
+  }
+}
+
+.header-content-nav2 {
+    margin-left: 100px;
+    width: 700px;
+  }
+  .content-iconcart {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right:10px;   
+     
+  }  
+  .content-iconLogin {
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right:100px;   
+     
+  }  
+  .content-iconHelp {
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+     }
+.introduce-Name {
+  margin-left: 70px;
+  font-size: 18px;
+}
+.introduceName:hover{
+  background-color: rgb(250, 235, 237);
+}
+.introduceName {
+  margin-left: 70px;
+  border-radius: 6%;
+}
+.product-category {
+  display: flex;
+}
+.content-search {
+    height: 30px;
+    margin-left: 100px;
+    width: 800px;  
+    .search {
+        width: 700px;
+        margin-right: 3px;
+    }
+}
+.icon {
+    margin-left: 30px;
+}
+.content-iconLogin{
+    margin-left: 30px;
+    position: relative;
+    display: inline-block;
+    font-size: 25px;
+
+  }
+  .hover-Login {
+    display: none;
+    position: absolute;
+    background-color: #f0eeee;
+    min-width: 100px;
+    border-radius: 8%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    .item {
+      font-size: 17px;
+      margin: 0px 0px 10px;
+      
+    }
+  
+    .item:hover {
+      background-color: rgb(248, 230, 231);
+    }
+  }
+  
+  .content-iconLogin:hover .hover-Login {
+    display: block;
+  }

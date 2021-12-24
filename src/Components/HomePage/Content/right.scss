@@ -1,0 +1,22 @@
+.content-right{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    .right-top {
+        width: 100px;
+        height: 100px;
+    }
+    .banner-right-link{
+        border: 1px solid rgb(224, 225, 226);
+        border-radius: 20px;
+        width: 40px;
+        height: 150px;
+        margin-top: 100px;
+        background-color: rgb(181, 187, 192);
+        margin-left: 350px;
+        position: fixed;
+        a {
+            margin-left: 9px;
+        }
+      }
+}
